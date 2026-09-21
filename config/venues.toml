@@ -1,0 +1,382 @@
+# Canonical venue scope for this warehouse.
+# CCF rank and category were transcribed from the supplied official 2026 directory PDF.
+# ccf_category values are stable slugs for its AI, database/data mining/content retrieval,
+# and cross/comprehensive/emerging section headings.
+
+[[venues]]
+id = "aaai"
+name = "AAAI Conference on Artificial Intelligence"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "neurips"
+name = "Conference on Neural Information Processing Systems"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "acl"
+name = "Annual Meeting of the Association for Computational Linguistics"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "cvpr"
+name = "IEEE/CVF Computer Vision and Pattern Recognition Conference"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "iccv"
+name = "International Conference on Computer Vision"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "icml"
+name = "International Conference on Machine Learning"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "iclr"
+name = "International Conference on Learning Representations"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "sigmod"
+name = "ACM SIGMOD Conference"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "sigkdd"
+name = "ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "icde"
+name = "IEEE International Conference on Data Engineering"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "sigir"
+name = "International ACM SIGIR Conference on Research and Development in Information Retrieval"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "vldb"
+name = "International Conference on Very Large Data Bases"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "www"
+name = "The Web Conference"
+type = "conference"
+ccf_rank = "A"
+ccf_category = "cross-comprehensive-emerging"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "ai"
+name = "Artificial Intelligence"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "tpami"
+name = "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "ijcv"
+name = "International Journal of Computer Vision"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "jmlr"
+name = "Journal of Machine Learning Research"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "tods"
+name = "ACM Transactions on Database Systems"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "tois"
+name = "ACM Transactions on Information Systems"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "tkde"
+name = "IEEE Transactions on Knowledge and Data Engineering"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "vldbj"
+name = "The VLDB Journal"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "bioinformatics"
+name = "Bioinformatics"
+type = "journal"
+ccf_rank = "A"
+ccf_category = "cross-comprehensive-emerging"
+warehouse_tier = "core-a"
+in_scope = true
+
+[[venues]]
+id = "ijcai"
+name = "International Joint Conference on Artificial Intelligence"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "emnlp"
+name = "Conference on Empirical Methods in Natural Language Processing"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "naacl"
+name = "North American Chapter of the Association for Computational Linguistics"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "coling"
+name = "International Conference on Computational Linguistics"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "eccv"
+name = "European Conference on Computer Vision"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "uai"
+name = "Conference on Uncertainty in Artificial Intelligence"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "colt"
+name = "Annual Conference on Computational Learning Theory"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "aamas"
+name = "International Joint Conference on Autonomous Agents and Multi-agent Systems"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "kr"
+name = "International Conference on Principles of Knowledge Representation and Reasoning"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "artificial-intelligence"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "wsdm"
+name = "ACM International Conference on Web Search and Data Mining"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "cikm"
+name = "ACM International Conference on Information and Knowledge Management"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "icdm"
+name = "IEEE International Conference on Data Mining"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "recsys"
+name = "ACM Conference on Recommender Systems"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "ecml-pkdd"
+name = "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "cidr"
+name = "Conference on Innovative Data Systems Research"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "pods"
+name = "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "database-data-mining-content-retrieval"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "ismb"
+name = "International conference on Intelligent Systems for Molecular Biology"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "cross-comprehensive-emerging"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "recomb"
+name = "Annual International Conference on Research in Computational Molecular Biology"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "cross-comprehensive-emerging"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "bibm"
+name = "IEEE International Conference on Bioinformatics and Biomedicine"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "cross-comprehensive-emerging"
+warehouse_tier = "selected-b"
+in_scope = true
+
+[[venues]]
+id = "miccai"
+name = "International Conference on Medical Image Computing and Computer-Assisted Intervention"
+type = "conference"
+ccf_rank = "B"
+ccf_category = "cross-comprehensive-emerging"
+warehouse_tier = "selected-b"
+in_scope = true
