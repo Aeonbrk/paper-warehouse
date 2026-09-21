@@ -15,3 +15,4 @@ This repository maintains a neutral scholarly literature corpus for a curated se
 - Do not manually maintain a global paper index; derived catalogs are not canonical evidence.
 - Write an Agent Note only for a non-trivial repository architecture, schema, methodology, or workflow decision.
 - Do not add infrastructure without a concrete current need.
+- Must avoid any AI slop in any contents, follow the `unslop` skill.
