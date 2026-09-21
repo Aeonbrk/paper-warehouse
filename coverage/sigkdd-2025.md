@@ -19,6 +19,8 @@ proceedings_parts:
     canonical_record_count: 521
 archival_paper_count: 771
 canonical_record_count: 771
+semantic_enriched_count: 770
+semantic_missing_count: 1
 non_archival_items_excluded: 73
 identity_duplicates_merged: 0
 track_breakdown:
