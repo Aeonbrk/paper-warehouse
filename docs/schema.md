@@ -6,7 +6,11 @@ The front matter is warehouse metadata and discovery information. The Markdown b
 
 ## Level 1: catalog record
 
-Level 1 records contain the minimum identity and discovery fields:
+Level 1 records contain bibliographic identity and discovery fields. They may
+also contain a short synopsis derived from a verified abstract and optional
+source-provided keywords or concepts. Semantic content declares its evidence
+basis in front matter and preserves the abstract source in
+`source_provenance`.
 
 ```yaml
 ---
@@ -25,6 +29,7 @@ doi: null
 arxiv_id: null
 official_paper_url: null
 publication_status: published
+semantic_basis: official_abstract
 source_provenance:
   - source: official-proceedings
     locator: "URL or bibliographic locator"
@@ -36,11 +41,20 @@ source_provenance:
 
 `track`, `doi`, `arxiv_id`, `official_paper_url`, and any other unavailable value remain `null` or are omitted; they are never guessed. `publication_type` and `publication_status` are descriptive metadata, not quality judgments.
 
-The stable front matter keys are `schema_version`, `record_level`, `paper_id`, `title`, `authors`, `publication_year`, `venue_id`, `venue_name`, `publication_type`, `publication_status`, and `source_provenance`. `track`, `doi`, `arxiv_id`, and `official_paper_url` are optional. `record_level` is `catalog` or `deep-read`; `schema_version` is `1` for this format.
+`semantic_basis` is `official_abstract`, `authoritative_abstract_metadata`, or
+`null`. When it is non-null, the body may include an `Abstract-derived
+synopsis` section with a short neutral paraphrase supported only by that
+abstract. The synopsis is not a full-text finding. Source-provided keywords or
+concepts may be included when directly available from the same authoritative
+metadata. If no reliable abstract is available, omit the synopsis and leave
+`semantic_basis` null.
+
+The stable front matter keys are `schema_version`, `record_level`, `paper_id`, `title`, `authors`, `publication_year`, `venue_id`, `venue_name`, `publication_type`, `publication_status`, `semantic_basis`, and `source_provenance`. `track`, `doi`, `arxiv_id`, and `official_paper_url` are optional. `record_level` is `catalog` or `deep-read`; `schema_version` is `1` for this format.
 
 ## Level 2: deep-read record
 
-Level 2 keeps all Level 1 fields and adds factual sections in the Markdown body:
+Level 2 keeps all catalog fields and adds factual sections derived from paper
+full text in the Markdown body:
 
 - Problem
 - Method

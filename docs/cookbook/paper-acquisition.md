@@ -25,9 +25,23 @@ opencli openalex search 'paper title' --format json
 opencli arxiv search 'paper title' --format json
 ```
 
-DBLP and OpenAlex records can confirm a bibliographic match. An arXiv record
-can document a preprint relationship. Neither source creates a second KDD
-catalog record.
+For bounded abstract enrichment, query Semantic Scholar by DOI in batches and
+use its abstract only when the returned title and DOI match the catalog record.
+The batch endpoint is:
+
+```text
+https://api.semanticscholar.org/graph/v1/paper/batch?fields=title,abstract,externalIds
+```
+
+If that record has no abstract, query arXiv by the exact title and verify the
+title before using its abstract. OpenAlex abstract metadata is another
+fallback when its DOI record matches. Record the selected abstract source and
+locator in `source_provenance`.
+
+DBLP and OpenAlex records can confirm a bibliographic match. Semantic Scholar
+and arXiv can supply abstract metadata for an existing DOI identity. An arXiv
+record can document a preprint relationship. Neither source creates a second
+KDD catalog record.
 
 ## Acquire full text lawfully
 

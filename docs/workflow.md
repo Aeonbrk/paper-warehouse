@@ -7,8 +7,8 @@ through this contract:
 
 `configured in-scope venue → authoritative venue/year interface → enumerate the
 venue/year surface → normalize scholarly identity → deduplicate → create or
-update catalog records → record coverage state → optionally deep-read papers
-later`
+update catalog records → optionally enrich from verified abstract metadata →
+record coverage state → optionally deep-read papers later`
 
 Prefer the official conference or journal interface or proceedings. If that is
 unavailable, use this source hierarchy: official publisher proceedings; an
@@ -30,6 +30,12 @@ authoritative archival source, proceedings parts, archival count, track
 breakdown when supported, canonical count, and unresolved membership or
 identity ambiguities. Deep-read count is only processing depth. It does not
 mean that a paper is important.
+
+Abstract enrichment is bounded metadata work. Use the strongest available
+abstract source, preserve its locator in `source_provenance`, and leave the
+synopsis absent when no reliable abstract is available. Abstract-derived
+synopses remain catalog content; full-text-derived sections remain deep-read
+content.
 
 The filesystem and Git history are sufficient for this initialized repository.
 Search catalogs, crawlers, indexes, and dashboards are outside the current
